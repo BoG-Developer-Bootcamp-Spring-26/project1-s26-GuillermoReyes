@@ -75,8 +75,12 @@ h4 {
     border: 1px solid black;
     background-color: #E8E8E8;
     width: 22rem;
+    height: 3rem;
     border-radius: 10px;
-    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     font-weight: 400;
     font-size: 1.2rem;
