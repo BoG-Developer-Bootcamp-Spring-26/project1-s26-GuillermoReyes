@@ -100,7 +100,7 @@ h4 {
   
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1.6rem; /* tweak for your arrow PNG size */
+    background-size: 1.6rem;
   }
 
 .nav-left  { background-image: url("leftArrow.png"); }
