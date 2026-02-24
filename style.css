@@ -62,8 +62,8 @@ h4 {
 
 .info-panel {
     background-color: #E8E8E8;
-    font-weight: 400;
-    font-size: 22px;
+    font-weight: 350;
+    font-size: 24px;
     border: 0px solid;
     width: 20rem;
     height: 22rem;
@@ -139,32 +139,43 @@ h4 {
     flex-direction: row;
     border: solid green;
     width: 22rem;
-    height: 1.5rem
+    height: 2rem;
 }
 
 .type-pill {
     display: inline-block;
     padding: 0.4rem 0.8rem;
     border-radius: 12px;
-    font-weight: 500;
-    color: white;
+    color: black;
   }
   
-.type-normal   { background-color: #A8A77A; }
-.type-fire     { background-color: #EE8130; }
-.type-water    { background-color: #6390F0; }
-.type-electric { background-color: #F7D02C; color: black; }
-.type-grass    { background-color: #7AC74C; }
-.type-ice      { background-color: #96D9D6; color: black; }
-.type-fighting { background-color: #C22E28; }
-.type-poison   { background-color: #A33EA1; }
-.type-ground   { background-color: #E2BF65; color: black; }
-.type-flying   { background-color: #A98FF3; }
-.type-psychic  { background-color: #F95587; }
-.type-bug      { background-color: #A6B91A; }
-.type-rock     { background-color: #B6A136; }
-.type-ghost    { background-color: #735797; }
-.type-dragon   { background-color: #6F35FC; }
-.type-dark     { background-color: #705746; }
-.type-steel    { background-color: #B7B7CE; color: black; }
-.type-fairy    { background-color: #D685AD; }
+.type-normal   { background-color: #A8A77A;}
+.type-fire     { background-color: #EE8130;}
+.type-water    { background-color: #6390F0;}
+.type-electric { background-color: #F7D02C;}
+.type-grass    { background-color: #7AC74C;}
+.type-ice      { background-color: #96D9D6;}
+.type-fighting { background-color: #C22E28;}
+.type-poison   { background-color: #A33EA1;}
+.type-ground   { background-color: #E2BF65;}
+.type-flying   { background-color: #A98FF3;}
+.type-psychic  { background-color: #F95587;}
+.type-bug      { background-color: #A6B91A;}
+.type-rock     { background-color: #B6A136;}
+.type-ghost    { background-color: #735797;}
+.type-dragon   { background-color: #6F35FC;}
+.type-dark     { background-color: #705746;}
+.type-steel    { background-color: #B7B7CE;}
+.type-fairy    { background-color: #D685AD;}
+
+.moves-list {
+    list-style: none;     
+    padding: 0;           
+    margin: 0;            
+}
+
+.moves-list li {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
