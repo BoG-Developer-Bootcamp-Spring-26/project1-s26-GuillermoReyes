@@ -141,3 +141,30 @@ h4 {
     width: 22rem;
     height: 1.5rem
 }
+
+.type-pill {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    border-radius: 12px;
+    font-weight: 500;
+    color: white;
+  }
+  
+.type-normal   { background-color: #A8A77A; }
+.type-fire     { background-color: #EE8130; }
+.type-water    { background-color: #6390F0; }
+.type-electric { background-color: #F7D02C; color: black; }
+.type-grass    { background-color: #7AC74C; }
+.type-ice      { background-color: #96D9D6; color: black; }
+.type-fighting { background-color: #C22E28; }
+.type-poison   { background-color: #A33EA1; }
+.type-ground   { background-color: #E2BF65; color: black; }
+.type-flying   { background-color: #A98FF3; }
+.type-psychic  { background-color: #F95587; }
+.type-bug      { background-color: #A6B91A; }
+.type-rock     { background-color: #B6A136; }
+.type-ghost    { background-color: #735797; }
+.type-dragon   { background-color: #6F35FC; }
+.type-dark     { background-color: #705746; }
+.type-steel    { background-color: #B7B7CE; color: black; }
+.type-fairy    { background-color: #D685AD; }
