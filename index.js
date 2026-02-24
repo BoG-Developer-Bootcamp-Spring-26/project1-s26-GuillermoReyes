@@ -61,6 +61,17 @@ function renderInfo(data){
   const speed = stats["speed"];
 
   panelTitleElement.textContent = "Info";
+
+  panelBody.innerHTML = 
+    `<div>height: ${height}m</div>
+    <div>weight: ${weight}kg</div>
+    <div>hp: ${stats.hp}</div>
+    <div>attack: ${stats.attack}</div>
+    <div>defense: ${stats.defense}</div>
+    <div>special-attack: ${stats["special-attack"]}</div>
+    <div>special-defense: ${stats["special-defense"]}</div>
+    <div>speed: ${stats.speed}</div>`
+  ;
 }
 
 function renderTypes(types) {
@@ -76,10 +87,14 @@ function renderTypes(types) {
 }
 
 function renderMoves(data) {
-  panelTitleElement.textContent("Moves");
+  panelTitleElement.textContent = "Moves";
 
-  const moves = data.moves.map(m=> m.move.name);
-  panelBody.innerHTML ;
+  const moves = data.moves.slice(0, 5).map(m => m.move.name);
+  panelBody.innerHTML = `
+    <ul class="moves-list">
+      ${moves.map(m => `<li>${m}</li>`).join("")}
+    </ul>
+  `;
 }
 
 async function updatePokemon() {
@@ -99,3 +114,5 @@ async function updatePokemon() {
     renderInfo(data);
   }
 }
+
+updatePokemon()
